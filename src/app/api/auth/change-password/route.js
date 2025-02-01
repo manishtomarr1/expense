@@ -1,7 +1,7 @@
 // src/app/api/auth/change-password/route.js
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "../[...nextauth]/route";
-import clientPromise from "@/lib/mongodb";
+import clientPromise from "../../../../libs/mongodb";
 import bcrypt from "bcrypt";
 
 export async function PATCH(request) {
