@@ -1,7 +1,7 @@
 // src/app/api/auth/profile/route.js
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "../[...nextauth]/route";
-import clientPromise from "@/lib/mongodb";
+import clientPromise from "../../../../libs/mongodb";
 
 export async function PATCH(request) {
   try {
