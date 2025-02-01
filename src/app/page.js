@@ -23,7 +23,7 @@ export default function Home() {
       </header>
 
       {/* Features Section */}
-      <main className="w-full max-w-4xl flex flex-col gap-16">
+      {/* <main className="w-full max-w-4xl flex flex-col gap-16">
         <section className="flex flex-col sm:flex-row items-center justify-between gap-8">
           <div className="flex-1">
             <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-100">
@@ -62,10 +62,10 @@ export default function Home() {
             </p>
           </div>
         </section>
-      </main>
+      </main> */}
 
       {/* Footer */}
-      <footer className="w-full max-w-4xl flex flex-col sm:flex-row items-center justify-between mt-16 text-sm text-gray-500 dark:text-gray-400">
+      {/* <footer className="w-full max-w-4xl flex flex-col sm:flex-row items-center justify-between mt-16 text-sm text-gray-500 dark:text-gray-400">
         <div>&copy; {new Date().getFullYear()} Expense Tracker</div>
         <div className="flex gap-4">
           <Link href="/about" className="hover:underline">
@@ -78,7 +78,7 @@ export default function Home() {
             Privacy Policy
           </Link>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
